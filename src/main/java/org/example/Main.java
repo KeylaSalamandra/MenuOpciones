@@ -21,6 +21,21 @@ while (opcionSeleccionada != 5){
     Scanner leerTeclado = new Scanner(System.in);
     System.out.println("Seleccione una opcion por favor: 😊");
     opcionSeleccionada=leerTeclado.nextInt();
+
+    //Evaluando caminos segun la opcion del usuario:
+    if (opcionSeleccionada==1){
+        System.out.println("SUMANDO...");
+    }else if(opcionSeleccionada==2){
+        System.out.println("RESTANDO...");
+    }else if (opcionSeleccionada==3){
+        System.out.println("MULTIPLICANDO...");
+    }else if (opcionSeleccionada==4){
+        System.out.println("DIVIDIENDO...");
+    }else if (opcionSeleccionada==5){
+        System.out.println("SALIENDO...");
+    }else {
+        System.out.println("OPCION INVALIDA...");
+    }
 }
         }
     }
